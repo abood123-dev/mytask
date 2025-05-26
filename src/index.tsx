@@ -14,6 +14,6 @@ const router = createHashRouter([
 ]);
 root.render(
 
-    <RouterProvider router={router} />
+    <App/>
   
 );
