@@ -6,12 +6,6 @@ import { createHashRouter , RouterProvider } from 'react-router-dom';
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
-const router = createHashRouter([
-  {
-    path: "/",
-    element: <App/>,
-  },
-]);
 root.render(
 
     <App/>

@@ -1,17 +1,19 @@
 import React, { CSSProperties } from 'react';
-import { Link, useFetcher } from 'react-router-dom';
+import { Link , useFetcher } from 'react-router-dom';
 import { useState } from 'react';
 import { useEffect } from 'react';
+import { HashRouter as Router , Routes , Route } from 'react-router-dom';
 import './index.css';
+import Home from './Home';
 function App() {
 
   return (
     <>
-     <div className="min-h-screen flex items-center justify-center bg-blue-100">
-      <header className="text-red">
-        Tailwind is working!
-      </header>
-    </div>
+    <Router>
+       <Routes>
+          <Route path='/' element={<Home/>} />
+       </Routes>
+    </Router>
      </>
   );
 }
