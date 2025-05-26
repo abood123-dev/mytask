@@ -1,0 +1,91 @@
+body
+{
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  overflow-x: hidden;
+  border-radius: 20px;
+  position: relative;  
+  margin-left: 450px;
+}
+.mobile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+.border-box
+{
+  width: 375px; 
+  height: 812px; 
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  border-radius: 0px !important;
+  overflow: hidden;
+  border-radius: 20px;
+  background-color: #f7f8f9;
+}
+.welcome
+{
+    font-size: 28px;
+    text-align: left;
+    position: absolute;
+    width: 231px;
+    top: 549px;
+    left: 20px;
+    font: normal normal medium 28px/17px Rubik;
+    font-weight: Medium;
+    font-family: 'Rubik',sans-serif;
+    color: #1d2226;
+}
+.lorem
+{
+    color: #1d2226;
+    text-align: left;
+    position: absolute;
+    top: 592px;
+    left: 20px;
+    font-size: 18px;
+    opacity: 0.6;
+    width: 232px;
+    font-family: 'Rubik',sans-serif;
+    font-weight: normal;
+}
+.btn1
+{
+   width: 335px;
+   height: 46px;
+   position: absolute;
+   top:669px ;
+   left:20px ;
+   background-color: #6c25ff;
+   text-align: center;
+   color: white;
+   font-size: 16px;
+   font-family: 'Rubik';
+   font-weight: Medium;
+   border-radius: 6px;
+   border: none;
+}
+.btn2
+{
+    width: 335px;
+   height: 46px;
+   position: absolute;
+   top:725px ;
+   left:20px ;
+   background-color: #6C25FF4B;
+   text-align: center;
+   color: #1D2226;
+   font-size: 16px;
+   font-family: 'Rubik';
+   font-weight: Medium;
+   border-radius: 6px;
+   border: none;
+}
+
+@media screen and (max-width: 768px) {
+  .mobile-container {
+    width: 100%;
+    height: 100vh;
+    border-radius: 0;
+    box-shadow: none; 
+  }
+}
