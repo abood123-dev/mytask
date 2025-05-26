@@ -9,6 +9,7 @@ const Home = () => {
         <div className='lorem'>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</div>
        <NavLink to='/Create'> <div><button className='btn1'> Create Account </button></div> </NavLink>
         <div > <button className='btn2'>Already Registered? Login</button></div>
+        <div>h</div>
     </div>
     </div>
   )
