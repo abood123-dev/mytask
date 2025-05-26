@@ -5,6 +5,7 @@ import { useEffect } from 'react';
 import { HashRouter as Router , Routes , Route } from 'react-router-dom';
 import './index.css';
 import Home from './Home';
+import Create from './Create';
 function App() {
 
   return (
@@ -12,6 +13,7 @@ function App() {
     <Router>
        <Routes>
           <Route path='/' element={<Home/>} />
+          <Route path='/Create' element={<Create/>} />
        </Routes>
     </Router>
      </>
