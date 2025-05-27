@@ -128,10 +128,34 @@ body
     outline: none;
     padding-left: 10px;
 }
+.put2
+{
+    position: absolute;
+    top:204px ;
+    left:20px ;
+    width:335px ;
+    height:40px ;
+    border: 1px solid #cbcbcb ;
+    border-radius: 6px;
+    outline: none;
+    padding-left: 10px;
+}
 .crinput3
 {
     position: absolute;
     top:347px ;
+    left:20px ;
+    width:335px ;
+    height:40px ;
+    border: 1px solid #cbcbcb ;
+    border-radius: 6px;
+    outline: none;
+    padding-left: 10px;
+}
+.put3
+{
+    position: absolute;
+    top:267px ;
     left:20px ;
     width:335px ;
     height:40px ;
@@ -197,12 +221,42 @@ body
     color: #6c25ff;
     white-space: nowrap;
 }
+.full2
+{
+    position: absolute;
+    top:195px ;
+    left:34px ;
+    width:85px ;
+    height:15px ;
+    text-align: left;
+    font-family: 'Rubik',sans-serif;
+    background-color: white;
+    font-size: 13px;
+    font-weight: normal;
+    color: #6c25ff;
+    white-space: nowrap;
+}
 .fullname3
 {
     position: absolute;
     top:338px ;
     left:34px ;
     width:65px ;
+    height:15px ;
+    text-align: left;
+    font-family: 'Rubik',sans-serif;
+    background-color: white;
+    font-size: 13px;
+    font-weight: normal;
+    color: #6c25ff;
+    white-space: nowrap;
+}
+.full3
+{
+    position: absolute;
+    top:258px ;
+    left:34px ;
+    width:59px ;
     height:15px ;
     text-align: left;
     font-family: 'Rubik',sans-serif;
@@ -397,6 +451,49 @@ body
     font-family: "Rubik";
     font-weight: normal;
 }
+.signin
+{
+     position: absolute;
+    top:40px ;
+    left:20px ;
+    width:188px ;
+    height:69px ;
+    font-size: 28px;
+    text-align: left;
+    color: #1D2226;
+    font-family: "Rubik";
+    font-weight: normal;
+}
+.desc
+{
+     position: absolute;
+    top:123px ;
+    left:20px ;
+    width:232px ;
+    height:48px ;
+    font-size: 18px;
+    text-align: left;
+    color: #1D2226;
+    font-family: "Rubik";
+    font-weight: normal;
+}
+.login
+{
+   width: 335px;
+   height: 46px;
+   position: absolute;
+   top:321px ;
+   left:20px ;
+   background-color: #CBCBCB;
+   text-align: center;
+   color: white;
+   font-size: 16px;
+   font-family: 'Rubik';
+   font-weight: Medium;
+   border-radius: 6px;
+   border: none;
+}   
+
 @media screen and (max-width: 768px) {
   .mobile-container {
     width: 100%;

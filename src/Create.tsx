@@ -11,12 +11,13 @@ const Create = () => {
   };
   return (
     <div className='border-box'>
-     <div className='create'>Create your PopX account</div> 
-     <div><input className='crinput' type='text' placeholder='Enter your Fullname' value={name} onChange={(e)=>setName(e.target.value)} /></div>
-     <div><input className='crinput1' placeholder='Enter your Phone number'/></div>
-     <div><input className='crinput2' placeholder='Enter your Email address' value={email} onChange={(e)=>setEmail(e.target.value)}/></div>
-     <div><input className='crinput3' placeholder='Enter your Password'/></div>
-     <div><input className='crinput4' placeholder='Enter your Company name'/></div>
+     <div className='create'>Create your PopX account</div>
+     <form onSubmit={handleSubmit}> 
+     <div><input className='crinput' type='text' placeholder='Enter your Fullname' value={name} onChange={(e)=>setName(e.target.value)} required /></div>
+     <div><input className='crinput1' placeholder='Enter your Phone number' required/></div>
+     <div><input className='crinput2' placeholder='Enter your Email address' value={email} onChange={(e)=>setEmail(e.target.value)} required/></div>
+     <div><input className='crinput3' type='password' placeholder='Enter your Password' required/></div>
+     <div><input className='crinput4' placeholder='Enter your Company name' required/></div>
        <div className='fullname'>Full Name<span className='star'>*</span></div>
        <div className='fullname1'>Phone number<span className='star'>*</span></div>
        <div className='fullname2'>Email address<span className='star'>*</span></div>
@@ -31,7 +32,8 @@ const Create = () => {
          <label className='lano'>
         No
       </label>
-      <div><button className='btn11' onClick={handleSubmit}> Create Account </button></div> 
+      <div><button className='btn11' type='submit'> Create Account </button></div>
+      </form> 
     </div>
   )
 }
