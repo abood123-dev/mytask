@@ -231,6 +231,172 @@ body
 {
     color: #DD4A3D;
 }
+.agency
+{
+    position: absolute;
+    top:474px ;
+    left:20px ;
+    width:125px ;
+    height:15px;
+    font-size: 13px;
+    font-weight: normal;
+    font-family: "Rubik",sans-serif;
+    white-space: nowrap;
+}
+.inyes
+{
+    position: absolute;
+    appearance: none;
+    top:499px ;
+    left:20px ;
+    width:22px ;
+    height:22px ;
+    border: 1px solid  #642AF5;
+    border-radius: 50%;
+    color: #642AF5;
+    cursor: pointer;
+    outline: none;
+}
+.inno
+{
+    position: absolute;
+    appearance: none;
+    top:499px ;
+    left:100px ;
+    width:22px ;
+    height:22px ;
+    border: 1px solid  #642AF5;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+}
+.inyes:checked::before,
+.inno:checked::before {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 15px;
+  margin: auto;
+  margin-top: 2.5px; 
+  border-radius: 50%;
+  background-color: #642AF5;
+}
+.btn11
+{
+   width: 335px;
+   height: 46px;
+   position: absolute;
+   top:736px ;
+   left:20px ;
+   background-color: #6c25ff;
+   text-align: center;
+   color: white;
+   font-size: 16px;
+   font-family: 'Rubik';
+   font-weight: Medium;
+   border-radius: 6px;
+   border: none;
+}
+.layes
+{
+    position: absolute;
+    top:502px ;
+    left:54px ;
+    width:23px ;
+    height:17px ;
+    text-align: left;
+    font-weight: normal;
+    font-size: 14px;
+    color: #1D2226;
+}
+.lano
+{
+    position: absolute;
+    top:502px ;
+    left:134px ;
+    width:23px ;
+    height:17px ;
+    text-align: left;
+    font-weight: normal;
+    font-size: 14px;
+    color: #1D2226;
+}
+.border-white
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width:375px ;
+    height:68px ;
+    background: #ffffff padding-box;
+    box-shadow: 0px 3px 6px #00000007;
+}
+.setting
+{
+    position: absolute;
+    top: 27px ;
+    left:15px ;
+    width:146px ;
+    height: 22px;
+    font-family: "Rubik",sans-serif;
+    font-size: 18px;
+    font-weight:normal ;
+    color:#1D2226 ;
+}
+.profile
+{
+   position: absolute;
+   top:98px ;
+   left:20px ;
+   width:76px ;
+   height: 76px;
+   background-color: transparent;
+}
+.small
+{
+    position: absolute;
+    top: 147px;
+    left:79px ;
+    width:21px ;
+    height:23px ;
+    background: transparent;
+}
+.name
+{
+    position: absolute;
+    top:98px ;
+    left:116px ;
+    width:73px ;
+    height:18px ;
+    font-size: 18px;
+    color: #1D2226;
+    font-family: "Rubik";
+    font-weight: normal;
+}
+.email
+{
+    position: absolute;
+    top:122px ;
+    left:116px ;
+    width:118px ;
+    height:17px ;
+    font-size: 17px;
+    color: #1D2226;
+    font-family: "Rubik";
+    font-weight: normal;
+}
+.lor
+{
+     position: absolute;
+    top:204px ;
+    left:20px ;
+    width:337px ;
+    height:63px ;
+    font-size: 14px;
+    color: #1D2226;
+    font-family: "Rubik";
+    font-weight: normal;
+}
 @media screen and (max-width: 768px) {
   .mobile-container {
     width: 100%;
